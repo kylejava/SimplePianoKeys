@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>London Bridge</title>
+    <link rel="stylesheet" href="../styles/row2.css">
+    <link rel="stylesheet" href="../styles/drop.css">
+  </head>
+  <body>
+    <div id="welcome"> <!--header of the homepage-->
+      <h1>London Bridge</h1>
+    </div>
+    <div> <!--navigation-->
+      <nav id="nav">
+        <h2>
+          <a href="/" class="navitems"> Home</a> <!--Home Button-->
+        </h2>
+        <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Song List</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="/ode">Ode To Joy</a>
+            <a href="/twinkle">Twinkle Twinkle Little Star</a>
+            <a href="/joy">Joy To The World</a>
+            <a href="/spider">The Itsy Bitsy Spider</a>
+            <a href="/jingle">Jingle Bells</a>
+            <a href="/mary">Mary Had a Little Lamb</a>
+            <a href="/teapot">I'm A Little Teapot</a>
+            <a href="/london">London Bridge</a>
+          </div>
+        </div>
+        <div>
+          <h2>
+            <a href = "/about" id="aboutpage"> About</a>
+          </h2>
+        </div>
+      </nav>
+    </div>
+    <div id="about">
+      <h2>Click on any note to start!</h2>
+    </div>
+    <div id="notes"> <!-- pictures-->
+      <img  id="c" class="key" src="../images/c.jpg" alt="A picture of a C note">
+      <img id="d" class="key" src="../images/d.jpg" alt="A picture of a D note">
+      <img id="e"class="key" src="../images/e.jpg" alt="A picture of an E note">
+      <img id="f" class="key"src="../images/f.jpg" alt="A picture of a F note">
+      <img id="g" class="key"src="../images/g.jpg" alt="A picture of a G note">
+      <img id="a" class="key"src="../images/a.jpg" alt="A picture of an A note">
+      <img id="b" class="key" src="../images/b.jpg" alt="A picture of a B note">
+      <img id="c2" class="key" src="../images/c.jpg" alt="A picture of a C note">
+    </div>
+    <div id="keypress"> <!-- letters for keypress-->
+      <h2 class="letter">(A)</h2>
+      <h2 class="letter">(S)</h2>
+      <h2 class="letter">(D)</h2>
+      <h2 class="letter">(F)</h2>
+      <h2 class="letter">(J)</h2>
+      <h2 class="letter">(K)</h2>
+      <h2 class="letter">(L)</h2>
+      <h2 class="letter">(;)</h2>
+    </div>
+    <div >
+      <h1> Notes</h1>
+      <h2 class="learn">G - A - G - F - E - F - G/
+        D - E - F - E - F - G/<br>
+        G - A - G - F - E - F - G/
+        D - G - E - C/
+         </h2>
+      <h1>Keys</h1>
+      <h2 class="learn"> J - K - J - F - D - F - J/
+        S - D - F - D - F - J/<br>
+        J - K - J - F - D - F - J/
+        S - J - D - A/
+     </h2>
+    </div>
+    <footer id="footer">
+      <h3>Thanks for playing! | Simple Piano Keys 2018<br>
+      </h3>
+    </footer>
+  <script type="text/javascript" src="../js/noise.js"></script>
+  <script type="text/javascript" src="../js/dropbutton.js"> </script>
+  </body>
+</html>

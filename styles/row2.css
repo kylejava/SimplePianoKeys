@@ -1,0 +1,169 @@
+
+h1{
+  text-align: center;
+  background-color: rgba(102, 160, 128, 0.5);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    left: 220px;
+}
+
+.learn{
+  display: flex;
+  justify-content: center;
+  font-size: 33px;
+  text-shadow: 1px 1px 1px;
+}
+
+#aboutpage{
+  position: absolute;
+  right: 290px;
+}
+
+#about{
+  text-align: center;
+}
+
+#footer{
+  background-color: rgba(102, 160, 128, 0.5);
+  text-align: center;
+  margin: 0;
+  padding: 1px;
+}
+
+#notes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  background-color: white;
+}
+
+#nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr  1fr;
+  background-color: rgba(102, 160, 128, 0.5);
+
+
+}
+
+.navitems{
+  display: flex;
+  justify-content: center;
+}
+
+#keypress{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding-left: 20px;
+}
+
+.letter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.key{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 100px;
+}
+
+
+#c{
+  opacity: 100;
+  filter: opacity(1.0);
+}
+
+#c:hover{
+  opacity: 50;
+  filter: opacity(0.5);
+}
+
+#d{
+  opacity: 100;
+  filter: opacity(1.0);
+}
+
+#d:hover{
+  opacity: 50;
+  filter: opacity(0.5);
+}
+
+#e{
+  opacity: 100;
+  filter: opacity(1.0);
+}
+
+#e:hover{
+  opacity: 50;
+  filter: opacity(0.5);
+}
+
+
+#f{
+  opacity: 100;
+  filter: opacity(1.0);
+}
+
+#f:hover{
+  opacity: 50;
+  filter: opacity(0.5);
+}
+
+#g{
+  opacity: 100;
+  filter: opacity(1.0);
+}
+
+#g:hover{
+  opacity: 50;
+  filter: opacity(0.5);
+}
+
+#a{
+  opacity: 100;
+  filter: opacity(1.0);
+}
+
+#a:hover{
+  opacity: 50;
+  filter: opacity(0.5);
+}
+
+
+#b{
+  opacity: 100;
+  filter: opacity(1.0);
+}
+
+#b:hover{
+  opacity: 50;
+  filter: opacity(0.5);
+}
+
+#c2{
+  opacity: 100;
+  filter: opacity(1.0);
+}
+
+#c2:hover{
+  opacity: 50;
+  filter: opacity(0.5);
+}
