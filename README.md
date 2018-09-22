@@ -1,4 +1,2 @@
-<<<<<<< HEAD
-"# simplepianokeys"
-=======
+
 "# simplepianokeys"
