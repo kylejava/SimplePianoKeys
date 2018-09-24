@@ -13,7 +13,7 @@ env = jinja2.Environment(
 class MainPage(webapp2.RequestHandler):
     def get(self):
         logging.info('in get self')
-        mypage = env.get_template('/index.html')
+        mypage = env.get_template('templates/index.html')
         self.response.write(mypage.render())
 
 class Ode(webapp2.RequestHandler):
