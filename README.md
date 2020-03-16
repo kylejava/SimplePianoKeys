@@ -1,6 +1,9 @@
-Hello welcome to SimplePianoKeys
-This is my first ever CS project and I hope you enjoy it
-This is an interactive website where you can play notes from the C major scale
-play notes by either clicking on them with your mouse
-or by pressing the key on the keyboard
-Enjoy!
+# SimplePianoKeys
+
+A website that allows the user to play a portion of the piano through their keyboard
+
+## Tools Used
+- HTML
+- CSS
+- JavaScript
+- Deployed website through the Google App Engine
